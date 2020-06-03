@@ -1,7 +1,7 @@
 const menuItems = [
     { title: 'Home', link: '/' },
-    { title: 'Charlettes Blogs', link: '/Character_Blogs/indext.html' },
-    { title: 'Web Desiner Blogs', link: '/Blogs/Designer_Posts_About.html' },
+    { title: 'Charlettes Blogs', link: './Character_Blogs/indext.html' },
+    { title: 'Web Desiner Blogs', link: './Blogs/Designer_Posts_About.html' },
     { title: 'About', link: '/' },
 ];
 const initialiseMenu = () => {
