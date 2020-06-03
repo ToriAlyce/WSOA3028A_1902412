@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <h1>Tori's Blog</h1>
-    </head>
-    
-    <body>
-        <button onclick="goBack()">Home Page</button>
-
-        <script>
-        function goBack() {
-            location.assign("https://torialyce.github.io/WSOA3028A_1902412/");
-        }
-        </script>
-        <h1>#4th Blog</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charlette's Website</title>
+    <script type="module" src="../Java_Script/menu.js"></script>
+</head>
+ <body>
+    <main>
+     <h1>Charlette's Website</h1>
+     <nav></nav>
+     <article>
+        <h2>#4th Blog</h2>
         <h3>So how does a browser work?</h3>
         <p>
            When a web user interacts with a browser, they expect fast connection as well as smooth interaction, so that using the 
@@ -24,7 +23,9 @@
            Next is the response. Once the server is connected, the browser will respond by sending an HTTP "get request" on behalf 
            of the user. Once the request is complete the server responds with the correct HTML page. This is the first byte of data 
            received by the browser and is known as "Time to First Byte Data" (TTFB). This is the time it takes from when the user made 
-           the request by clicking a link and loading all the data on the page linked to it.</br>
+           the request by clicking a link and loading all the data on the page linked to it.
+        <br>
+        </br>
            Last is Passing. After the browser receives it's first initial data, it starts passing. Passing is when the browser turns the 
            data into DOM and CSSOM, that is then used by the renderer to load the page onto the screen for the user. The DOM is the 
            markup representation for the browser (going back to Samantic Markup). After this is done it moves to the CSSOM, this 
@@ -32,12 +33,12 @@
            Knowing this allowed me to really understand how the webpage that I create is loaded by the browser. This is important 
            to know, because as web designers we can make use of this information to help browsers load our data better, making our webpages 
            accessable to the public and easy to interact with. 
-           
         </p>
-         </article>
-         <nav>
-            <a href="Blog_post_3.html">Back -</a>
-            <a href="Blog_Post_5.html"> Next</a>
-         </nav>
-    </body>
+     </article>
+    </main>
+    <nav>
+        <a href="Designer_Post_3.html">Back -</a>
+        <a href="Designer_Post_5.html"> Next</a>
+     </nav>
+ </body>
 </html>
