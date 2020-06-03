@@ -2,6 +2,8 @@ html,
 body {
     padding: 0;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: plum;
 }
 
 body {
@@ -21,4 +23,13 @@ p {
     font-size: 15pt;
     line-height: 21pt;
     text-align: justify;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+.emphasize {
+    font-style: italic;
+    font-size: medium;
 }
