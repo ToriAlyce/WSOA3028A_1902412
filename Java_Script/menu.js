@@ -1,9 +1,8 @@
 const menuItems = [
     { title: 'Home', link: '/' },
-    { title: 'Charlettes Blogs',  },
+    { title: 'Charlettes Blogs', link: '/indext.html' },
     { title: 'Web Desiner Blogs', link: '/Blogs/Designer_Posts_About.html' },
     { title: 'About', link: '/' },
-    <a href="index.html">Home -</a>
 ];
 const initialiseMenu = () => {
     const nav = document.querySelector('nav');
