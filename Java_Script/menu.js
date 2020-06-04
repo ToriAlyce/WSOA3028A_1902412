@@ -1,6 +1,6 @@
 const menuItems = [
     { title: 'Home', link: '/' },
-    { title: 'Charlettes Blogs', link: '/indext.html' },
+    { title: 'Charlettes Blogs', link: '/Character_Blogs/indext.html' },
     { title: 'Web Desiner Blogs', link: '/Blogs/Designer_Posts_About.html' },
     { title: 'About', link: '/' },
 ];
