@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charlette's Website</title>
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <script type="module" src="../Java_Script/menu.js"></script>
+
+    <style>
+        .menu {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 21pt;
+            font-family: Georgia, 'Times New Roman', Times, serif, cursive; 
+        }
+    </style>
+</head>
+ <body>
+    <main>
+        <h1>Charlette's Web<span class="emphasize">site</span></h1>
+        <nav class="menu"></nav>
+     <article>
+        <h2>#11th Blog</h2>
+        <h3>Information Geographies</h3>
+        <section>
+            <p>
+                
+            </p>
+        </section>
+     </article>
+    </main>
+    <blockquote>
+        <nav>
+            <a href="Designer_Post_10.html">Back -</a>
+            <a href="Designer_Post_12.html"> Next</a>
+         </nav>
+    </blockquote>
+ </body>
+</html>
