@@ -38,3 +38,14 @@
     </blockquote>
  </body>
 </html>
+
+/*fetch("https://www.googleapis.com/auth/books")
+.then((r) => r.json())
+.then((inspo) => {
+    console.log(inspo);
+    handelInspo(inspo)
+});
+
+const handelInspo = (inspoDetails) => {
+    document.querySelector("p").innerText = inspoDetails.quote;
+};*/

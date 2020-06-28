@@ -29,7 +29,7 @@ section {
     background-color: rgb(241, 210, 219);
     margin: 50px auto;
     width: 900px;
-    padding-bottom: 40px;
+    
     padding-left: 10px;
     padding-right: 10px;
     border: 3px solid rgb(65, 23, 65);
@@ -37,13 +37,13 @@ section {
 }
 
 
+
 body {
     background-color: rgba(97, 0, 65, 0.842);
     margin: 50px auto;
     width: 1300px;
+    padding-bottom: 40px;
 }
-
-
 
 h2,
 h3,
